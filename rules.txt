@@ -4,4 +4,5 @@
 ||whitetrafsa.com^
 ||*.agl006.host^
 ||*.whitetrafsa.com^
-*$popup,third-party
+*$popup
+*$document,domain=whitetrafsa.com|agl006.host
