@@ -1,3 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: My Popup Rules
+! Expires: 1 day
 *$popup,third-party
+||agl006.host^
+||whitetrafsa.com^
