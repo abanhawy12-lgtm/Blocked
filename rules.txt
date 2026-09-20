@@ -1,6 +1,21 @@
 [Adblock Plus 2.0]
-! Title: My Custom Rules
+! Title: My Custom Rules - Ultimate Script Killer
+
+! 1. شل حركة دوال فتح النوافذ في المتصفح بالكامل
+*#$#override-property-read window.open noopFunc
+*#$#abort-on-property-write window.open
+*#$#override-property-read document.defaultView.open noopFunc
+
+! 2. تعطيل سكربتات النقر الإجبارية (Clickjackers)
+*#$#abort-on-property-write document.onclick
+*#$#abort-on-property-read document.onclick
+
+! 3. القواعد الصارمة لمنع تبويبات الطرف الثالث
 *$popup
-*$popup,third-party
 *$popunder
-*$subdocument,third-party,popup
+*$third-party,popup
+*$third-party,subdocument
+
+! 4. حظر النطاقات القديمة للاحتياط
+||agl006.host^
+||whitetrafsa.com^
