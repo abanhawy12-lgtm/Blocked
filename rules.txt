@@ -1,8 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Rules
-||agl006.host^
-||whitetrafsa.com^
-||*.agl006.host^
-||*.whitetrafsa.com^
 *$popup
-*$document,domain=whitetrafsa.com|agl006.host
+*$popup,third-party
+*$popunder
+*$subdocument,third-party,popup
