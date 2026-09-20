@@ -2,3 +2,4 @@
 ! Title: My Custom Rules
 ||agl006.host^$popup
 ||whitetrafsa.com^$popup
+||whitetrafsa.com^
