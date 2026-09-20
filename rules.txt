@@ -1,3 +1,4 @@
 [Adblock Plus 2.0]
 ! Title: My Custom Rules
 ||agl006.host^$popup
+||whitetrafsa.com^$popup
