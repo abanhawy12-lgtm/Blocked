@@ -1,1 +1,3 @@
-$popup,third-party
+[Adblock Plus 2.0]
+! Title: My Popup Rules
+*$popup,third-party
